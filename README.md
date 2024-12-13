@@ -1,2 +1,37 @@
-# San_Francisco_Crime_Classification-Kaggle_Problem
- From 1934 to 1963, San Francisco was infamous for housing some of the world's most notorious criminals on the inescapable island of Alcatraz.  Today, the city is known more for its tech scene than its criminal past. But, with rising wealth inequality, housing shortages, and a proliferation of expensive digital toys riding BART to work, there is no scarcity of crime in the city by the bay.  From Sunset to SOMA, and Marina to Excelsior, this competition's dataset provides nearly 12 years of crime reports from across all of San Francisco's neighborhoods. Given time and location, you must predict the category of crime that occurred.  We're also encouraging you to explore the dataset visually. What can we learn about the city through visualizations like this Top Crimes Map? The top most up-voted scripts from this competition will receive official Kaggle swag as prizes. 
+# San Francisco Crime Classification  
+
+Este repositório contém a implementação do projeto de classificação de crimes em São Francisco, baseado no desafio disponível no [Kaggle](https://www.kaggle.com/competitions/sf-crime/overview). O objetivo é prever a categoria de crimes com base em dados históricos, aplicando técnicas de mineração de dados e aprendizado de máquina.  
+
+## Descrição do Problema  
+Entre 01/01/2003 e 13/05/2015, crimes foram registrados em todos os bairros de São Francisco. O conjunto de dados inclui informações como:  
+- **Data e hora** do crime.  
+- **Descrição detalhada** do crime (apenas no conjunto de treinamento).  
+- **Dia da semana**.  
+- **Distrito policial**.  
+- **Resolução** (apenas no conjunto de treinamento).  
+- **Endereço**, **longitude** e **latitude**.  
+- **Categoria do crime**, que é a variável alvo para a previsão.  
+
+Dado o tempo e o local, o objetivo é prever a categoria do crime ocorrido.  
+
+## Motivação  
+Este projeto foi desenvolvido na disciplina **BCC444 - Mineração de Dados** na Universidade Federal de Ouro Preto (UFOP). Ele tem como objetivo explorar o pré-processamento de dados, lidar com valores incompletos e realizar previsões com base nos dados transformados. A tarefa de prever crimes é uma aplicação prática dos conceitos estudados e demonstra a importância do tratamento e modelagem de dados.  
+
+## Objetivo do Projeto  
+O trabalho é composto pelas seguintes etapas:  
+1. **Pré-processamento** dos dados para garantir consistência e qualidade.  
+2. **Treinamento de um modelo de IA** para aprendizado e categorização de crimes.  
+3. Avaliação do modelo para medir a **precisão** na categorização.  
+
+## Tecnologias Utilizadas  
+- Python  
+- Bibliotecas de Ciência de Dados: Pandas, NumPy, Scikit-learn, etc.  
+- Visualização: Matplotlib, Seaborn  
+- Machine Learning: Modelos supervisionados para classificação  
+
+## Como Executar  
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/henrique-dpighini/sf-crime-classification.git
+   cd sf-crime-classification
+
